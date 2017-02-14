@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.shop.address.test.util.LongLatValidatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-09-14T15:14:17" hostname="yash-PC" time="0.004">
+  <properties/>
+  <testcase name="longitudeFormatingTest" classname="com.shop.address.test.util.LongLatValidatorTest" time="0.001"/>
+  <testcase name="longitudeRangeTest" classname="com.shop.address.test.util.LongLatValidatorTest" time="0.0"/>
+  <testcase name="latitudeRangeTest" classname="com.shop.address.test.util.LongLatValidatorTest" time="0.001"/>
+  <testcase name="latitudeFormatingTest" classname="com.shop.address.test.util.LongLatValidatorTest" time="0.001"/>
+  <system-out><![CDATA[Number format exception occured
+Not a valid longitude. Longitude shoud be between (-180 and 180)
+Not a valid Latitude. Latitude shoud be between (-90 and 90)
+Number formating exception occured
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

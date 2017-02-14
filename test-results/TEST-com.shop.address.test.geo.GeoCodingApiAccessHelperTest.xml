@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.shop.address.test.geo.GeoCodingApiAccessHelperTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-09-14T15:14:16" hostname="yash-PC" time="1.907">
+  <properties/>
+  <testcase name="ValuesTest" classname="com.shop.address.test.geo.GeoCodingApiAccessHelperTest" time="1.108"/>
+  <testcase name="nullValuesTest" classname="com.shop.address.test.geo.GeoCodingApiAccessHelperTest" time="0.798"/>
+  <system-out><![CDATA[Adress is : Citadel,d3,411001
+Responce is +HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=UTF-8, Date: Wed, 14 Sep 2016 15:14:16 GMT, Expires: Thu, 15 Sep 2016 15:14:16 GMT, Cache-Control: public, max-age=86400, Vary: Accept-Language, Access-Control-Allow-Origin: *, Server: mafe, X-XSS-Protection: 1; mode=block, X-Frame-Options: SAMEORIGIN] org.apache.http.client.entity.DecompressingEntity@5a152db}
+Result is :{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "CItadel",
+               "short_name" : "CItadel",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "Bhagwan Tatyasaheb Kawade Road",
+               "short_name" : "BT Kawde Road",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Dombi Wadi",
+               "short_name" : "Dombi Wadi",
+               "types" : [ "political", "sublocality", "sublocality_level_2" ]
+            },
+            {
+               "long_name" : "Ghorpadi",
+               "short_name" : "Ghorpadi",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Pune",
+               "short_name" : "Pune",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Pune",
+               "short_name" : "Pune",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Maharashtra",
+               "short_name" : "MH",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "411001",
+               "short_name" : "411001",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "CItadel, BT Kawade Road, Dombi Wadi, Ghorpadi, Pune, Maharashtra 411001, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 18.5198051,
+               "lng" : 73.9060204
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 18.5211540802915,
+                  "lng" : 73.9073693802915
+               },
+               "southwest" : {
+                  "lat" : 18.5184561197085,
+                  "lng" : 73.90467141970849
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ33w7f7vBwjsRGUD9DI_fIes",
+         "types" : [ "premise" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Citadel",
+               "short_name" : "Citadel",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Northwood",
+               "short_name" : "Northwood",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Irvine",
+               "short_name" : "Irvine",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Orange County",
+               "short_name" : "Orange County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "92620",
+               "short_name" : "92620",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Citadel, Irvine, CA 92620, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 33.715138,
+                  "lng" : -117.764198
+               },
+               "southwest" : {
+                  "lat" : 33.714429,
+                  "lng" : -117.764889
+               }
+            },
+            "location" : {
+               "lat" : 33.7147779,
+               "lng" : -117.7645996
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 33.7161324802915,
+                  "lng" : -117.7631945197085
+               },
+               "southwest" : {
+                  "lat" : 33.7134345197085,
+                  "lng" : -117.7658924802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJY92R75Tc3IARVjP6OybHWJE",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}
+
+Adress is : null,null,null
+Responce is +HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=UTF-8, Date: Wed, 14 Sep 2016 15:14:17 GMT, Expires: Thu, 15 Sep 2016 15:14:17 GMT, Cache-Control: public, max-age=86400, Vary: Accept-Language, Access-Control-Allow-Origin: *, Server: mafe, X-XSS-Protection: 1; mode=block, X-Frame-Options: SAMEORIGIN] org.apache.http.client.entity.DecompressingEntity@85eee93}
+Result is :{
+   "results" : [],
+   "status" : "ZERO_RESULTS"
+}
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

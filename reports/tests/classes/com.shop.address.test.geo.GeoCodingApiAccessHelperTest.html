@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.shop.address.test.geo.GeoCodingApiAccessHelperTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.shop.address.test.geo.GeoCodingApiAccessHelperTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.shop.address.test.geo.html">com.shop.address.test.geo</a> &gt; GeoCodingApiAccessHelperTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.906s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">ValuesTest</td>
+<td>1.108s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">nullValuesTest</td>
+<td>0.798s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Adress is : Citadel,d3,411001
+Responce is +HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=UTF-8, Date: Wed, 14 Sep 2016 15:14:16 GMT, Expires: Thu, 15 Sep 2016 15:14:16 GMT, Cache-Control: public, max-age=86400, Vary: Accept-Language, Access-Control-Allow-Origin: *, Server: mafe, X-XSS-Protection: 1; mode=block, X-Frame-Options: SAMEORIGIN] org.apache.http.client.entity.DecompressingEntity@5a152db}
+Result is :{
+   &quot;results&quot; : [
+      {
+         &quot;address_components&quot; : [
+            {
+               &quot;long_name&quot; : &quot;CItadel&quot;,
+               &quot;short_name&quot; : &quot;CItadel&quot;,
+               &quot;types&quot; : [ &quot;premise&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;Bhagwan Tatyasaheb Kawade Road&quot;,
+               &quot;short_name&quot; : &quot;BT Kawde Road&quot;,
+               &quot;types&quot; : [ &quot;route&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;Dombi Wadi&quot;,
+               &quot;short_name&quot; : &quot;Dombi Wadi&quot;,
+               &quot;types&quot; : [ &quot;political&quot;, &quot;sublocality&quot;, &quot;sublocality_level_2&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;Ghorpadi&quot;,
+               &quot;short_name&quot; : &quot;Ghorpadi&quot;,
+               &quot;types&quot; : [ &quot;political&quot;, &quot;sublocality&quot;, &quot;sublocality_level_1&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;Pune&quot;,
+               &quot;short_name&quot; : &quot;Pune&quot;,
+               &quot;types&quot; : [ &quot;locality&quot;, &quot;political&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;Pune&quot;,
+               &quot;short_name&quot; : &quot;Pune&quot;,
+               &quot;types&quot; : [ &quot;administrative_area_level_2&quot;, &quot;political&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;Maharashtra&quot;,
+               &quot;short_name&quot; : &quot;MH&quot;,
+               &quot;types&quot; : [ &quot;administrative_area_level_1&quot;, &quot;political&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;India&quot;,
+               &quot;short_name&quot; : &quot;IN&quot;,
+               &quot;types&quot; : [ &quot;country&quot;, &quot;political&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;411001&quot;,
+               &quot;short_name&quot; : &quot;411001&quot;,
+               &quot;types&quot; : [ &quot;postal_code&quot; ]
+            }
+         ],
+         &quot;formatted_address&quot; : &quot;CItadel, BT Kawade Road, Dombi Wadi, Ghorpadi, Pune, Maharashtra 411001, India&quot;,
+         &quot;geometry&quot; : {
+            &quot;location&quot; : {
+               &quot;lat&quot; : 18.5198051,
+               &quot;lng&quot; : 73.9060204
+            },
+            &quot;location_type&quot; : &quot;ROOFTOP&quot;,
+            &quot;viewport&quot; : {
+               &quot;northeast&quot; : {
+                  &quot;lat&quot; : 18.5211540802915,
+                  &quot;lng&quot; : 73.9073693802915
+               },
+               &quot;southwest&quot; : {
+                  &quot;lat&quot; : 18.5184561197085,
+                  &quot;lng&quot; : 73.90467141970849
+               }
+            }
+         },
+         &quot;partial_match&quot; : true,
+         &quot;place_id&quot; : &quot;ChIJ33w7f7vBwjsRGUD9DI_fIes&quot;,
+         &quot;types&quot; : [ &quot;premise&quot; ]
+      },
+      {
+         &quot;address_components&quot; : [
+            {
+               &quot;long_name&quot; : &quot;Citadel&quot;,
+               &quot;short_name&quot; : &quot;Citadel&quot;,
+               &quot;types&quot; : [ &quot;route&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;Northwood&quot;,
+               &quot;short_name&quot; : &quot;Northwood&quot;,
+               &quot;types&quot; : [ &quot;neighborhood&quot;, &quot;political&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;Irvine&quot;,
+               &quot;short_name&quot; : &quot;Irvine&quot;,
+               &quot;types&quot; : [ &quot;locality&quot;, &quot;political&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;Orange County&quot;,
+               &quot;short_name&quot; : &quot;Orange County&quot;,
+               &quot;types&quot; : [ &quot;administrative_area_level_2&quot;, &quot;political&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;California&quot;,
+               &quot;short_name&quot; : &quot;CA&quot;,
+               &quot;types&quot; : [ &quot;administrative_area_level_1&quot;, &quot;political&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;United States&quot;,
+               &quot;short_name&quot; : &quot;US&quot;,
+               &quot;types&quot; : [ &quot;country&quot;, &quot;political&quot; ]
+            },
+            {
+               &quot;long_name&quot; : &quot;92620&quot;,
+               &quot;short_name&quot; : &quot;92620&quot;,
+               &quot;types&quot; : [ &quot;postal_code&quot; ]
+            }
+         ],
+         &quot;formatted_address&quot; : &quot;Citadel, Irvine, CA 92620, USA&quot;,
+         &quot;geometry&quot; : {
+            &quot;bounds&quot; : {
+               &quot;northeast&quot; : {
+                  &quot;lat&quot; : 33.715138,
+                  &quot;lng&quot; : -117.764198
+               },
+               &quot;southwest&quot; : {
+                  &quot;lat&quot; : 33.714429,
+                  &quot;lng&quot; : -117.764889
+               }
+            },
+            &quot;location&quot; : {
+               &quot;lat&quot; : 33.7147779,
+               &quot;lng&quot; : -117.7645996
+            },
+            &quot;location_type&quot; : &quot;GEOMETRIC_CENTER&quot;,
+            &quot;viewport&quot; : {
+               &quot;northeast&quot; : {
+                  &quot;lat&quot; : 33.7161324802915,
+                  &quot;lng&quot; : -117.7631945197085
+               },
+               &quot;southwest&quot; : {
+                  &quot;lat&quot; : 33.7134345197085,
+                  &quot;lng&quot; : -117.7658924802915
+               }
+            }
+         },
+         &quot;partial_match&quot; : true,
+         &quot;place_id&quot; : &quot;ChIJY92R75Tc3IARVjP6OybHWJE&quot;,
+         &quot;types&quot; : [ &quot;route&quot; ]
+      }
+   ],
+   &quot;status&quot; : &quot;OK&quot;
+}
+
+Adress is : null,null,null
+Responce is +HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=UTF-8, Date: Wed, 14 Sep 2016 15:14:17 GMT, Expires: Thu, 15 Sep 2016 15:14:17 GMT, Cache-Control: public, max-age=86400, Vary: Accept-Language, Access-Control-Allow-Origin: *, Server: mafe, X-XSS-Protection: 1; mode=block, X-Frame-Options: SAMEORIGIN] org.apache.http.client.entity.DecompressingEntity@85eee93}
+Result is :{
+   &quot;results&quot; : [],
+   &quot;status&quot; : &quot;ZERO_RESULTS&quot;
+}
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.14.1</a> at Sep 14, 2016 8:44:18 PM</p>
+</div>
+</div>
+</body>
+</html>
